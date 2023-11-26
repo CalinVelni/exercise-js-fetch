@@ -1,0 +1,49 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    --custom1: rgba(104, 119, 255, 0.32);
+    --custom2: rgb(6, 15, 99);
+    color: var(--custom2);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+#title {
+    padding: 1rem;
+}
+
+input {
+    width: 175px;
+    margin-left: 1rem;
+    font-size: inherit;
+    color: inherit;
+}
+
+
+button {
+    padding: 0.05rem .3rem;
+    font-size: inherit;
+    border-radius: .2rem;
+    border: 1px solid var(--custom2);
+    background-color: var(--custom1);
+    color: var(--custom2)
+}
+
+button:hover {
+    background-color: var(--custom2);
+    color: white;
+}
+
+p{
+    padding: 1rem;
+}
+
